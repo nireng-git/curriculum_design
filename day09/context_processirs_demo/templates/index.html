@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}
+首页
+{% endblock %}
+{% block head %}
+<meta name="csrf_token" content="{{ csrf_token }}">
+{% endblock %}
+{% block body %}
+{#    首页   {{ request.path }}#}
+{#   {{ debug }} / {{ sql_queries }}#}
+{#   <img src="{{ MEDIA_URL }}mtv.png" alt="">#}
+{% endblock %}
